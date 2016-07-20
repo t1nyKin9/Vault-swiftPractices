@@ -1,0 +1,15 @@
+func displayTheMiddleNumber(num1: Int, num2: Int, num3: Int) -> Int {
+     if num1 < num2 {
+         num2 < num3
+         print(num2)
+      } else if num3 > num2 {
+             num1 > num3
+             print(num3)
+            } else {
+              num1 > num3 && num2 > num1
+              print(num1)
+              }
+    return displayTheMiddlNumber
+}
+
+displayTheMiddleNumber(2, num2: 9, num3: 3)
